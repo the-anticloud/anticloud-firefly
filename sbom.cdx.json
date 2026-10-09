@@ -1,0 +1,278 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.5",
+ "serialNumber": "urn:uuid:a3acbb99-b66d-5048-9d6c-026701e8b5ec",
+ "version": 1,
+ "metadata": {
+  "timestamp": "2026-10-06T10:32:33Z",
+  "component": {
+   "type": "application",
+   "name": "FIREFLY",
+   "version": "83b357604d34",
+   "bom-ref": "pkg:generic/anticloud/FIREFLY@83b357604d34",
+   "purl": "pkg:generic/anticloud/FIREFLY@83b357604d34",
+   "licenses": [
+    {
+     "license": {
+      "id": "AGPL-3.0"
+     }
+    }
+   ]
+  },
+  "properties": [
+   {
+    "name": "anticloud:source-commit",
+    "value": "REMOVED_CONTAMINATED_SHA_PENDING_API_RESOLVE"
+   },
+   {
+    "name": "anticloud:source-url",
+    "value": "https://github.com/the-anticloud/OPENMRS_CORE.git"
+   },
+   {
+    "name": "anticloud:tier",
+    "value": "tier-agent"
+   }
+  ]
+ },
+ "components": [
+  {
+   "type": "library",
+   "name": "patch-package",
+   "version": "^8.0.1",
+   "purl": "pkg:npm/patch-package@^8.0.1",
+   "bom-ref": "npm/patch-package@^8.0.1"
+  },
+  {
+   "type": "library",
+   "name": "@eslint/js",
+   "version": "^10.0.1",
+   "purl": "pkg:npm/@eslint/js@^10.0.1",
+   "bom-ref": "npm/@eslint/js@^10.0.1"
+  },
+  {
+   "type": "library",
+   "name": "eslint",
+   "version": "^10.10.0",
+   "purl": "pkg:npm/eslint@^10.10.0",
+   "bom-ref": "npm/eslint@^10.10.0"
+  },
+  {
+   "type": "library",
+   "name": "globals",
+   "version": "^17.12.0",
+   "purl": "pkg:npm/globals@^17.12.0",
+   "bom-ref": "npm/globals@^17.12.0"
+  },
+  {
+   "type": "library",
+   "name": "@alpinejs/csp",
+   "version": "^3.17.4",
+   "purl": "pkg:npm/@alpinejs/csp@^3.17.4",
+   "bom-ref": "npm/@alpinejs/csp@^3.17.4"
+  },
+  {
+   "type": "library",
+   "name": "@fontsource/roboto",
+   "version": "^5.3.0",
+   "purl": "pkg:npm/@fontsource/roboto@^5.3.0",
+   "bom-ref": "npm/@fontsource/roboto@^5.3.0"
+  },
+  {
+   "type": "library",
+   "name": "@popperjs/core",
+   "version": "^2.11.8",
+   "purl": "pkg:npm/@popperjs/core@^2.11.8",
+   "bom-ref": "npm/@popperjs/core@^2.11.8"
+  },
+  {
+   "type": "library",
+   "name": "admin-lte",
+   "version": "^4.0.0",
+   "purl": "pkg:npm/admin-lte@^4.0.0",
+   "bom-ref": "npm/admin-lte@^4.0.0"
+  },
+  {
+   "type": "library",
+   "name": "axios",
+   "version": "^1.18",
+   "purl": "pkg:npm/axios@^1.18",
+   "bom-ref": "npm/axios@^1.18"
+  },
+  {
+   "type": "library",
+   "name": "bootstrap",
+   "version": "^5",
+   "purl": "pkg:npm/bootstrap@^5",
+   "bom-ref": "npm/bootstrap@^5"
+  },
+  {
+   "type": "library",
+   "name": "bootstrap-icons",
+   "version": "^1.13.1",
+   "purl": "pkg:npm/bootstrap-icons@^1.13.1",
+   "bom-ref": "npm/bootstrap-icons@^1.13.1"
+  },
+  {
+   "type": "library",
+   "name": "bootstrap5-autocomplete",
+   "version": "^1",
+   "purl": "pkg:npm/bootstrap5-autocomplete@^1",
+   "bom-ref": "npm/bootstrap5-autocomplete@^1"
+  },
+  {
+   "type": "library",
+   "name": "bootstrap5-tags",
+   "version": "^1.7.17",
+   "purl": "pkg:npm/bootstrap5-tags@^1.7.17",
+   "bom-ref": "npm/bootstrap5-tags@^1.7.17"
+  },
+  {
+   "type": "library",
+   "name": "cally",
+   "version": "^0.9.2",
+   "purl": "pkg:npm/cally@^0.9.2",
+   "bom-ref": "npm/cally@^0.9.2"
+  },
+  {
+   "type": "library",
+   "name": "chart.js",
+   "version": "^4.5.1",
+   "purl": "pkg:npm/chart.js@^4.5.1",
+   "bom-ref": "npm/chart.js@^4.5.1"
+  },
+  {
+   "type": "library",
+   "name": "chartjs-plugin-annotation",
+   "version": "^3.1.0",
+   "purl": "pkg:npm/chartjs-plugin-annotation@^3.1.0",
+   "bom-ref": "npm/chartjs-plugin-annotation@^3.1.0"
+  },
+  {
+   "type": "library",
+   "name": "date-fns",
+   "version": "^4.4.0",
+   "purl": "pkg:npm/date-fns@^4.4.0",
+   "bom-ref": "npm/date-fns@^4.4.0"
+  },
+  {
+   "type": "library",
+   "name": "fullcalendar",
+   "version": "^7.0.1",
+   "purl": "pkg:npm/fullcalendar@^7.0.1",
+   "bom-ref": "npm/fullcalendar@^7.0.1"
+  },
+  {
+   "type": "library",
+   "name": "i18next",
+   "version": "^26.0.3",
+   "purl": "pkg:npm/i18next@^26.0.3",
+   "bom-ref": "npm/i18next@^26.0.3"
+  },
+  {
+   "type": "library",
+   "name": "i18next-chained-backend",
+   "version": "^5.0.0",
+   "purl": "pkg:npm/i18next-chained-backend@^5.0.0",
+   "bom-ref": "npm/i18next-chained-backend@^5.0.0"
+  },
+  {
+   "type": "library",
+   "name": "i18next-http-backend",
+   "version": "^4.0.0",
+   "purl": "pkg:npm/i18next-http-backend@^4.0.0",
+   "bom-ref": "npm/i18next-http-backend@^4.0.0"
+  },
+  {
+   "type": "library",
+   "name": "i18next-localstorage-backend",
+   "version": "^4.2.0",
+   "purl": "pkg:npm/i18next-localstorage-backend@^4.2.0",
+   "bom-ref": "npm/i18next-localstorage-backend@^4.2.0"
+  },
+  {
+   "type": "library",
+   "name": "leaflet",
+   "version": "^1.9.4",
+   "purl": "pkg:npm/leaflet@^1.9.4",
+   "bom-ref": "npm/leaflet@^1.9.4"
+  },
+  {
+   "type": "library",
+   "name": "shepherd.js",
+   "version": "^15.2.3",
+   "purl": "pkg:npm/shepherd.js@^15.2.3",
+   "bom-ref": "npm/shepherd.js@^15.2.3"
+  },
+  {
+   "type": "library",
+   "name": "store",
+   "version": "^2.0.12",
+   "purl": "pkg:npm/store@^2.0.12",
+   "bom-ref": "npm/store@^2.0.12"
+  },
+  {
+   "type": "library",
+   "name": "concurrently",
+   "version": "^10",
+   "purl": "pkg:npm/concurrently@^10",
+   "bom-ref": "npm/concurrently@^10"
+  },
+  {
+   "type": "library",
+   "name": "laravel-vite-plugin",
+   "version": "^3.1",
+   "purl": "pkg:npm/laravel-vite-plugin@^3.1",
+   "bom-ref": "npm/laravel-vite-plugin@^3.1"
+  },
+  {
+   "type": "library",
+   "name": "postcss",
+   "version": "^8.5.14",
+   "purl": "pkg:npm/postcss@^8.5.14",
+   "bom-ref": "npm/postcss@^8.5.14"
+  },
+  {
+   "type": "library",
+   "name": "prettier",
+   "version": "3.9.9",
+   "purl": "pkg:npm/prettier@3.9.9",
+   "bom-ref": "npm/prettier@3.9.9"
+  },
+  {
+   "type": "library",
+   "name": "sass",
+   "version": "^1",
+   "purl": "pkg:npm/sass@^1",
+   "bom-ref": "npm/sass@^1"
+  },
+  {
+   "type": "library",
+   "name": "tailwindcss",
+   "version": "^4.0.0",
+   "purl": "pkg:npm/tailwindcss@^4.0.0",
+   "bom-ref": "npm/tailwindcss@^4.0.0"
+  },
+  {
+   "type": "library",
+   "name": "vite",
+   "version": "^8.0.0",
+   "purl": "pkg:npm/vite@^8.0.0",
+   "bom-ref": "npm/vite@^8.0.0"
+  },
+  {
+   "type": "library",
+   "name": "vite-plugin-manifest-sri",
+   "version": "^0.2.0",
+   "purl": "pkg:npm/vite-plugin-manifest-sri@^0.2.0",
+   "bom-ref": "npm/vite-plugin-manifest-sri@^0.2.0"
+  }
+ ],
+ "source": {
+  "git": {
+   "head": null,
+   "url": null,
+   "sha_unverified": true,
+   "note": "contamination removed; resolve via GitHub API before quoting"
+  }
+ }
+}
